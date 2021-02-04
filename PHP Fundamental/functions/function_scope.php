@@ -9,6 +9,7 @@ function saySomething(){
 
 echo $text.'<br>';
 saySomething();
+
 echo $text.'<br>';
 echo $text;
 

@@ -1,26 +1,20 @@
 <?php
 
-$fullName = 'william smith'; //string
-$age = 22; //int
-$isCool = true; //bool
-$price = 44.4; //float
+$fullName='Robet Peter'; //string
+$age=22; //int
+$price=44.4; //float
+$isMarried=true; //bool
 
-echo 'Hello My name is ' . $fullName;
-echo '<br>';
-echo $age;
-echo '<br>';
-echo $isCool;
-echo '<br>';
-echo $price;
-echo '<br>';
+echo "Hello My name is ".$fullName."<br>";
+echo $age."<br>";
+echo $price."<br>";
+echo $isMarried."<br>";
 
 //constant variables
-$fruit = 'apple';
-$fruit = 'mango';
+$fruit='apple';
+$fruit='mango';
+echo $fruit.'<br>';
 
-echo $fruit;
-echo '<br>';
-
-define('COLOR', 'red');
-define('color', 'blue'); //not work
+define('COLOR','green');
+define('color','red'); //not work
 echo COLOR;

@@ -5,8 +5,8 @@
  */
 
 # for loop (with curly braces)
-for ($i = 0; $i <= 10; $i++) {
-    echo $i . '<br>';
+for($i=0;$i<=10;$i++){
+    echo $i.'<br>';
 }
 
 # for loop (without curly brackets)
@@ -15,9 +15,9 @@ for ($i = 0; $i <= 10; $i++):
 endfor;
 
 #while loop(with curly brackets)
-$i = 0;
-while ($i <= 10) {
-    echo $i . '<br>';
+$i=0;
+while ($i<=10) {
+    echo $i.'<br>';
     $i++;
 }
 
@@ -26,23 +26,23 @@ $i = 0;
 while ($i <= 10):
     echo $i . '<br>';
     $i++;
-endwhile;
+endwhile;    
 
 #foreach loop(with curly brackets)
-$numbers = [12, 34, 56, 78, 90, 22];
-foreach ($numbers as $num) {
-    echo $num . '<br>';
+$numbers=[12,34,56,234,55,34];
+foreach($numbers as $num){
+    echo $num.'<br>';
 }
 
 #foreach loop(without curly brackets)
-$numbers = [12, 34, 56, 78, 90, 22];
+$numbers = [12, 34, 56, 234, 55, 34];
 foreach ($numbers as $num):
     echo $num . '<br>';
 endforeach;
 
 //do while loop
-$i = 0;
+$i=0;
 do {
-    echo $i . '<br>';
+    echo $i.'<br>';
     $i++;
-} while ($i <= 100);
+} while ($i<=100);

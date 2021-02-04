@@ -1,3 +1,3 @@
 <?php
 
-setcookie('name', 'htin kyaw', time() + 60);
+setcookie('name','htin kyaw',time()+60);

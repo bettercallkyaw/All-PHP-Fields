@@ -1,29 +1,32 @@
 <?php
 
-$fruits = array('apple', 'orange', 'banana');
+//normal array
+$fruits=array('apple','orange','banana');
 
 //indexed array
-$numbers = [1, 2, 3, 4, 5, 6];
+$numbers=[1,2,3,4,5,6,7];
 
 //associative array
-$internet_company = [
-    'facebook' => 'social media',
-    'google' => 'search engine',
-    'apple' => 'laptop,smart phone',
+$companies=[
+    'facebook'=>'social media',
+    'google'=>'search engine',
+    'apple'=>'smart phone'
 ];
 
 //multidimensional array
-$companies = [
-    'twitter' => 'social media',
-    'huawei' => ['smart phone', 'laptop', 'AI'],
-    'company' => [
-        'asus' => 'computer',
-        'coca' => 'juice',
-    ],
+$big_companies=[
+    'twitter'=>'social media',
+    'numbers'=>[33,45,56,78],
+    'internet_companies'=>[
+        'yahoo'=>'search engine',
+        'reddit'=>'news site'
+    ]
 ];
 
-echo '<pre>' . print_r($fruits, true) . '</pre>' . '<br>';
-echo $fruits[2] . '<br>';
-echo $internet_company['facebook'] . '<br>';
-echo $companies['huawei'][1] . '<br>';
-echo $companies['company']['coca'];
+echo '<pre>'.print_r($fruits,true).'</pre>'.'<br>';
+echo $fruits[0].'<br>';
+echo '<pre>'.print_r($numbers,true).'</pre>'.'<br>';
+echo $numbers[1].'<br>';
+echo $companies['apple'].'<br>';
+echo $big_companies['internet_companies']['yahoo'];
+
